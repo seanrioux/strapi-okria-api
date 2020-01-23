@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "objectives",
+  "info": {
+    "name": "objective",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "objective": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "result": {
+      "group": "result",
+      "repeatable": true,
+      "type": "group"
+    },
+    "initiative": {
+      "model": "initiative"
+    }
+  }
+}

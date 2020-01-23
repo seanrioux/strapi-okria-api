@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "initiatives",
+  "info": {
+    "name": "initiative",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "activity": {
+      "group": "activity",
+      "repeatable": true,
+      "type": "group"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "activity",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_activities",
+  "attributes": {
+    "resource": {
+      "model": "resource"
+    },
+    "task": {
+      "type": "string",
+      "required": true
+    },
+    "estimate": {
+      "type": "float"
+    },
+    "cadence": {
+      "enum": [
+        "hour",
+        "day",
+        "week",
+        "sprint",
+        "month",
+        "quarter",
+        "year",
+        "points"
+      ],
+      "type": "enumeration"
+    }
+  }
+}
