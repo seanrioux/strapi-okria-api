@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "activity",
-    "description": ""
+    "description": "Activities are tasks towards completing an initiative"
   },
   "connection": "default",
   "collectionName": "groups_activities",

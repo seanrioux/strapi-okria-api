@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "result",
-    "description": ""
+    "description": "Key results are quantitative goals towards an objective"
   },
   "connection": "default",
   "collectionName": "groups_results",

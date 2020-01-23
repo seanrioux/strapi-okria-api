@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "log",
-    "description": ""
+    "description": "Logs capture a current metric value for objective grading"
   },
   "connection": "default",
   "collectionName": "groups_logs",

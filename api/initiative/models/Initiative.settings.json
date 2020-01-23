@@ -3,7 +3,7 @@
   "collectionName": "initiatives",
   "info": {
     "name": "initiative",
-    "description": ""
+    "description": "Initiatives are projects that drive key results"
   },
   "options": {
     "increments": true,
@@ -24,6 +24,10 @@
       "group": "activity",
       "repeatable": true,
       "type": "group"
+    },
+    "complete": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

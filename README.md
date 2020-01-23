@@ -48,3 +48,18 @@ https://strapi.io/documentation/3.0.0-beta.x/cli/CLI.html#strapi-new
 ```
 yarn strapi develop
 ```
+
+Access in browser
+http://localhost:1337
+
+
+Authentication
+1. Set user permissions to access objectives and initiatives endpoints
+2. Create authenticated user
+3. Get PWT token with POST request
+4. Access objectives and initiatives endpoints with token in header
+
+
+Testing with Postman
+1. POST http://localhost:1337/auth/local
+   1. BODY identifier, password

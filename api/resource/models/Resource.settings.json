@@ -3,7 +3,7 @@
   "collectionName": "resources",
   "info": {
     "name": "resource",
-    "description": ""
+    "description": "Resources are teams or team members responsible for activities"
   },
   "options": {
     "increments": true,

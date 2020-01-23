@@ -3,7 +3,7 @@
   "collectionName": "metrics",
   "info": {
     "name": "metric",
-    "description": ""
+    "description": "Metrics are the quantitative measures used to define key results"
   },
   "options": {
     "increments": true,
