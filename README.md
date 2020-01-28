@@ -7,12 +7,13 @@ An open-source API solution for managing and integrating OKRs, initiatives and a
 - [Appendix](#appendix)
 
 ## Introduction
-OKRIA is a setting and strategic planning model designed to better the objectives and key results model popularized by John Doerr.
 
 ### What is OKRIA?
+OKRIA is a goal setting and strategic planning model designed to better the objectives and key results model popularized by John Doerr.
+
 If you’re familiar with OKR, it’s pretty easy to summarize OKRIA (it’s in our name). OKRIA stands for Objectives and Key Results, Initiatives and Activities.
 
-In the OKRIA model, we have explicitly delineated the (often compounded) process of planning initiatives and activities from that of setting objectives and key results. In doing so we have worked to define a more holistic strategic planning model. Following the OKR example, we’ve defined simple (but opinionated) rules for the application of the process, considering organizational hierarchy and scalability, e.g.:
+In the OKRIA model, we have explicitly delineated the (often compounded) process of planning initiatives and activities from that of setting objectives and key results. In doing so we have worked to define a more holistic strategic planning model. Following the OKR example, we’ve defined simple (but opinionated) rules for initiatives and activities planning:
 
 #### Initiatives
 Initiatives are the projects, products, or product features that will be undertaken to increase, decrease or maintain key results. Initiatives are:
@@ -47,7 +48,7 @@ OKRIA API has everything you need to get started:
 Learn more about the powerful Strapi CMS [here](https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start.html) for full documentation and features.
 
 ## Getting started
-Follow these step by step instructions to get started running OKRIA API in your local development environment.
+Follow these step by step instructions to get started running OKRIA API in your local development environment:
 
 ### 1. Install
 First, we'll install the required dependencies:
@@ -56,10 +57,9 @@ First, we'll install the required dependencies:
 First, install Strapi globally using npm.
 ```
 npm i strapi -g
-
 ```
 #### 1.2 Install OKRIA API
-The OKRIA API repo contains a package.json file with additional application dependencies as well as Strapi configuration files specific to the OKRIA API.
+The OKRIA API repo contains a `package.json` file with additional application dependencies as well as Strapi configuration files specific to the OKRIA API.
 
 Clone the repo and install the dependencies as follows:
 
@@ -144,7 +144,7 @@ Once an objective and one or many key metrics have been created you can begin to
 8. Save the objective to save your key results
 
 #### 3.6 Create resources
-To complete planning our initiative activities to drive key results, we will have to engage team teams or team members (our resources).
+To complete planning our initiative activities we will have to engage team teams or team members (our key resources).
 
 1. Click `Resources` in the sidebar and click the `Add New Resource` button
 2. Add a resource name in the `Resource` field
@@ -193,7 +193,7 @@ We can now access endpoints for each of our content types in the browser or usin
 4. Find all resources via a `GET` request to `http://localhost:1337/metrics`
 
 ## Appendix
-OKRIA API is new, but we will continue to enhance the offering with further customization to the Strapi interface, documentation, and use case example (including code). For now, please feel free to [reach out](mailto:info@okria.io) with comments or questions and to browse the resources below to explore further.
+OKRIA API is new, but we will continue to enhance the offering with further customization to the Strapi interface, documentation, and use case example (including code). For now, please feel free to [reach out](http://localhost:4000/sales) with comments or questions and to browse the resources below to explore further.
 
 ### Additional documentation
 1. [Strapi documentation](https://strapi.io/documentation/3.0.0-beta.x/getting-started/introduction.html)
