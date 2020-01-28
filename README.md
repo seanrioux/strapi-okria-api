@@ -109,9 +109,10 @@ Second, we'll create an objective for the initiative. An objective is a qualitat
 2. Add an objective name in the `Objective` field
    - e.g.  `Release a more delightful onboarding experience`
 3. Set a goal date for the completion of this objective (corresponding the initiative date)
-4. Initiatives also have `Results` (key results). Leave this field blank for now
-5. Save your objective by clicking the `Save` button
-6. You can now access this and other objectives by clicking `Objectives` in the sidebar
+4. Select your previously created initiative using the `Initiative` field
+5. Objectives also have `Results` (key results). Leave this field blank for now
+6. Save your objective by clicking the `Save` button
+7. You can now access this and other objectives by clicking `Objectives` in the sidebar
 
 #### 3.3 Create a metric
 Before creating a key result we'll want to identify the key metrics which we'll use to measure our objective. A key metric is a quantitative measure which we will increase, decrease, or maintain through our activities and which will be used to measure achievement of our objective (as a key result).
@@ -187,10 +188,10 @@ To configure access to the various endpoints, we'll use the administrative inter
 
 #### 5.1 Test endpoints
 We can now access endpoints for each of our content types in the browser or using an API tool (e.g. Postman) to consume the input content, via any front-end or third-party application.
-1. Find all objectives via a `GET` request to `http://localhost:1337/objectives`
-2. Find all initiatives via a `GET` request to `http://localhost:1337/intiatives`
-3. Find all resources via a `GET` request to `http://localhost:1337/resources`
-4. Find all resources via a `GET` request to `http://localhost:1337/metrics`
+- Find all metrics via a `GET` request to `http://localhost:1337/metrics`
+- Find all objectives via a `GET` request to `http://localhost:1337/objectives`
+- Find all initiatives via a `GET` request to `http://localhost:1337/intiatives`
+- Find all resources via a `GET` request to `http://localhost:1337/resources`
 
 ## Appendix
 OKRIA API is new, but we will continue to enhance the offering with further customization to the Strapi interface, documentation, and use case example (including code). For now, please feel free to [reach out](http://localhost:4000/sales) with comments or questions and to browse the resources below to explore further.
