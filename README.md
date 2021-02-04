@@ -11,7 +11,7 @@ Created by [OKRIA](https://okria.io): we help organizations set goals and achiev
 ## Introduction
 
 ### What is OKRIA?
-OKRIA is a goal setting and strategic planning model designed to better the objectives and key results model popularized by John Doerr.
+OKR is a goal setting and strategic planning model designed to better the objectives and key results model popularized by John Doerr.
 
 If you’re familiar with OKR, it’s pretty easy to summarize OKRIA (it’s in our name). OKRIA stands for Objectives and Key Results, Initiatives and Activities.
 
